@@ -43,7 +43,7 @@ In Type III, the gradients are passed back through two surrogate models.
 
 # Evaluation
 - Accuracy: Agreement with true test labels
-- Fidelity: Agreement with the victim model’s predictions on the test set, indicating how well the attack reproduced the original model's behavior.
+- Fidelity: Agreement with the victim model’s predictions on the test set, indicating how well the attack reproduced the original model's behavior
 
 # License
 This project is licensed under the MIT License. Reference the ``LICENSE`` file in the repository for more detail.
