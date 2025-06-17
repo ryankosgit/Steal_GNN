@@ -1,4 +1,4 @@
-# Steal_GNN
+# StealGNN
 
 This is an implementation of StealGNN described in the paper "Unveiling the Secrets without Data: Can Graph Neural Networks Be Exploited through Data-Free Model Extraction Attacks?" (Zhuang, et al).
 
@@ -34,3 +34,11 @@ In Type I, the gradients are propogated through the surrogate model and the grad
 In Type II, the gradients are propogated through one surrogate model.
 
 In Type III, the gradients are passed back through two surrogate models. 
+
+## Datasets used
+- Cora
+- Amazon Computers
+- Pubmed
+- OGB-Arxiv
+
+  
