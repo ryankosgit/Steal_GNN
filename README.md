@@ -46,7 +46,7 @@ In Type III, the gradients are passed back through two surrogate models.
 - Fidelity: Agreement with the victim model’s predictions on the test set, indicating how well the attack reproduced the original model's behavior.
 
 # License
-This project is licensed under the MIT License. Reference the ``LICENSE`` file for more detail.
+This project is licensed under the MIT License. Reference the ``LICENSE`` file in the repository for more detail.
 
 # Reference
 Zhuang, Y., Shi, C., Zhang, M., Chen, J., Lyu, L., Zhou, P., Sun, L. (2024) Unveiling the Secrets without Data: Can Graph Neural Networks Be Exploited through Data-Free Model Extraction Attacks?
