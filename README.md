@@ -52,7 +52,7 @@ python main.py --dataset <dataset> --attack_type <attack_type>
 
 # Datasets used
 - Cora
-- Amazon Computers
+- Computers
 - Pubmed
 - OGB-Arxiv
 
