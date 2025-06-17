@@ -49,5 +49,5 @@ In Type III, the gradients are passed back through two surrogate models.
 This project is licensed under the MIT License. Reference the ``LICENSE`` file for more detail.
 
 # Reference
-Zhuang, Y., et al. (2024) Unveiling the Secrets without Data: Can Graph Neural Networks Be Exploited through Data-Free Model Extraction Attacks?
+Zhuang, Y., Shi, C., Zhang, M., Chen, J., Lyu, L., Zhou, P., Sun, L. (2024) Unveiling the Secrets without Data: Can Graph Neural Networks Be Exploited through Data-Free Model Extraction Attacks?
 https://pure.psu.edu/en/publications/unveiling-the-secrets-without-data-can-graph-neural-networks-be-e
