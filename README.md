@@ -46,9 +46,9 @@ python main.py --dataset <dataset> --attack_type <attack_type>
 ```
 ^Runs the attack
 
-```<attack_type>``` can either be ```cora```, ```ogb-arxiv```, ```pubmed```, or ```computers```
+```<attack_type>``` can either be 1, 2, or 3
 
-```<dataset>``` can either be 1, 2, or 3
+```<dataset>``` can either be ```cora```, ```ogb-arxiv```, ```pubmed```, or ```computers```
 
 # Datasets used
 - Cora
