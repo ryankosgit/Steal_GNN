@@ -2,8 +2,7 @@
 
 dataset_name = "" #cora, ogb-arxiv, pubmed, computers
 
-attack_type = "" #type-i, type-ii, type-iii
-
+attack_type = "" #1, 2, 3
 in_dim = 0
 hid_dim = 0
 num_classes = 0
