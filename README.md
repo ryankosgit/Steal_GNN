@@ -35,6 +35,12 @@ In Type II, the gradients are propogated through one surrogate model.
 
 In Type III, the gradients are passed back through two surrogate models. 
 
+# Run
+
+```bash
+python main.py --dataset <dataset> --attack_type <attack_type> 
+```
+
 # Datasets used
 - Cora
 - Amazon Computers
