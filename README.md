@@ -36,10 +36,17 @@ In Type II, the gradients are propogated through one surrogate model.
 In Type III, the gradients are passed back through two surrogate models. 
 
 # Run
+```bash
+pip install -r requirements.txt
+```
+^Installs the libraries
 
 ```bash
 python main.py --dataset <dataset> --attack_type <attack_type> 
 ```
+^Runs the attack
+```<attack_type>``` can either be ```cora```, ```ogb-arxiv```, ```pubmed```, or ```computers```
+```dataset``` can either be 1, 2, or 3
 
 # Datasets used
 - Cora
