@@ -2,7 +2,7 @@
 
 This is an implementation of StealGNN described in the paper "Unveiling the Secrets without Data: Can Graph Neural Networks Be Exploited through Data-Free Model Extraction Attacks?" (Zhuang, et al).
 
-#Project Structure
+# Project Structure
 
 ```text
 stealgnn/
@@ -16,4 +16,6 @@ stealgnn/
 ├── train.py                 # Victim training loop
 main.py                      # CLI entry point to launch attacks
 README.md
-requirements.txt             # Python package dependencies
+requirements.txt             
+```
+
