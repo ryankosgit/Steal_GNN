@@ -26,3 +26,11 @@ requirements.txt
 The primary script to launch experiments. It parses command-line arguments, loads datasets, initializes models and generators, and executes the specified attack while logging performance metrics.
 
 ## attacks/
+- `type_i_ii`: Implements the Type I _or_ Type II attack, depends on user entry
+- `type_iii`: Implements the Type III attack
+
+In Type I, the gradients are propogated through the surrogate model and the gradient approximation of the victim model.
+
+In Type II, the gradients are propogated through one surrogate model.
+
+In Type III, the gradients are passed back through two surrogate models. 
