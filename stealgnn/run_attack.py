@@ -1,4 +1,4 @@
-if attack_type == 'type-i':
+if attack_type == '1':
     model = TypeI_IIAttack(generator, surrogate, victim, device,
                        noise_dim=noise_dim, num_nodes=num_nodes, feature_dim=feature_dim)
     print("Type-I Attack running")
@@ -6,7 +6,7 @@ if attack_type == 'type-i':
     print(f"Final Gen Loss: {gen_losses[-1]:.4f}, Final Surr Loss: {surr_losses[-1]:.4f}")
     surr_acc, surr_fid = model.evaluate(surrogate_model, data)
     print(f"Surrogate Accuracy: {surr_acc:.4f}, Fidelity: {surr_fid:.4f}")
-elif attack_type == 'type-ii':
+elif attack_type == '2':
     model = TypeI_IIAttack(generator, surrogate, victim, device,
                            noise_dim=noise_dim, num_nodes=num_nodes, feature_dim=feature_dim)
     print("Type-II Attack running")
@@ -15,7 +15,7 @@ elif attack_type == 'type-ii':
     surr_acc, surr_fid = model.evaluate(surrogate_model, data)
     print(f"Surrogate Accuracy: {surr_acc:.4f}, Fidelity: {surr_fid:.4f}")
 
-elif attack_type == 'type-iii':
+elif attack_type == '3':
     generator = FullParameterizationGenerator(num_nodes, feature_dim)
     surrogate_1 = GCN(feature_dim, 64, num_classes)
     surrogate_2 = GCN(feature_dim, 64, num_classes)
