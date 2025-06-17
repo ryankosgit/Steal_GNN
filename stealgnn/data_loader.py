@@ -1,6 +1,6 @@
 """**LOAD DATA & INFO**"""
 
-dataset_name = "" #cora, ogb-arxiv, Pubmed, Computers
+dataset_name = "" #cora, ogb-arxiv, pubmed, computers
 
 attack_type = "" #type-i, type-ii, type-iii
 
@@ -23,11 +23,11 @@ elif dataset_name == 'ogb-arxiv':
     edge_index = data.edge_index
     in_dim = 128; hid_dim = 256; num_classes = 40; num_layers = 3
 
-elif dataset_name == 'Pubmed':
+elif dataset_name == 'pubmed':
     dataset = Planetoid(root='./data', name='Pubmed')
     in_dim = 500; hid_dim = 128; num_classes = 3
 
-elif dataset_name == 'Computers':
+elif dataset_name == 'computers':
     dataset = Amazon(root='data/Amazon', name='computers', transform=NormalizeFeatures())
     data = dataset[0]
     data = RandomNodeSplit(split='train_rest', num_val=0.2, num_test=0.2)(data)
