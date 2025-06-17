@@ -35,10 +35,19 @@ In Type II, the gradients are propogated through one surrogate model.
 
 In Type III, the gradients are passed back through two surrogate models. 
 
-## Datasets used
+# Datasets used
 - Cora
 - Amazon Computers
 - Pubmed
 - OGB-Arxiv
 
-  
+# Evaluation
+- Accuracy: Agreement with true test labels
+- Fidelity: Agreement with the victim model’s predictions on the test set, indicating how well the attack reproduced the original model's behavior.
+
+# License
+This project is licensed under the MIT License. Reference the ``LICENSE`` file for more detail.
+
+# Reference
+Zhuang, Y., et al. (2024) Unveiling the Secrets without Data: Can Graph Neural Networks Be Exploited through Data-Free Model Extraction Attacks?
+https://pure.psu.edu/en/publications/unveiling-the-secrets-without-data-can-graph-neural-networks-be-e
