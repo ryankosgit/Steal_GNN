@@ -9,8 +9,8 @@ from stealgnn.attacks.type_iii import TypeIIIAttack
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset', type=str, required=True, choices=['cora', 'ogb-arxiv', 'Pubmed', 'Computers'])
-    parser.add_argument('--attack_type', type=str, required=True, choices=['type-i', 'type-ii', 'type-iii'])
+    parser.add_argument('--dataset', type=str, required=True, choices=['cora', 'ogb-arxiv', 'pubmed', 'computers'])
+    parser.add_argument('--attack_type', type=str, required=True, choices=['1', '2', '3'])
     parser.add_argument('--device', type=str, default='cuda' if torch.cuda.is_available() else 'cpu')
     args = parser.parse_args()
 
