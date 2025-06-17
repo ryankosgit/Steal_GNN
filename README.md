@@ -4,8 +4,7 @@ This is an implementation of StealGNN described in the paper "Unveiling the Secr
 
 #Project Structure
 
-</code></pre>
-stealgnn/ (root)
+</code></pre> stealgnn/ (root)
 ├── main.py 
 ├── attacks/ 
 │ └── __init__.py 
@@ -13,5 +12,4 @@ stealgnn/ (root)
 │ └── type_iii.py 
 ├── data_loader.py 
 ├── README.md
-└── requirements.txt
-</code></pre>
+└── requirements.txt </code></pre>
