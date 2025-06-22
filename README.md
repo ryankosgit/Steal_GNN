@@ -87,6 +87,9 @@ This section documents the STEALGNN results aligned with the experimental tables
 | Type II     | ~0.64       | ~0.40          | ~0.50    | -0.12          | 0.02             | queries = 500 |
 | Type III    | N/A         | N/A            | N/A      | N/A            | N/A              | Out of memory |
 
+### OGBN-Arxiv
+
+All attacks resulted in **out of memory** errors and are to be determined.
 
 
 # License
