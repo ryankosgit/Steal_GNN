@@ -60,6 +60,35 @@ python main.py --dataset <dataset> --attack_type <attack_type>
 - Accuracy: Agreement with true test labels
 - Fidelity: Agreement with the victim model’s predictions on the test set, indicating how well the attack reproduced the original model's behavior
 
+# Result
+This section documents the STEALGNN results aligned with the experimental tables in the original paper. Values marked with `~` are approximate, taken from logs or estimation.
+
+### Cora
+
+| Attack Type | Victim Acc | Surrogate Acc | Fidelity | Final Gen Loss | Final Surr Loss | Notes         |
+|-------------|-------------|----------------|----------|----------------|------------------|---------------|
+| Type I      | ~0.80       | ~0.75          | ~0.86    | ~-0.99         | 0.0002           | queries = 1000 |
+| Type II     | ~0.80       | ~0.75          | ~0.84    | ~-0.96         | 0.0003           | queries = 1000 |
+| Type III    | ~0.80       | ~0.12          | ~0.11    | -0             | Both 1.94        | queries = 1000 |
+
+### Pubmed
+
+| Attack Type | Victim Acc | Surrogate Acc | Fidelity | Final Gen Loss | Final Surr Loss | Notes |
+|-------------|-------------|----------------|----------|----------------|------------------|-------|
+| Type I      | ~0.65       | ~0.65          | ~0.70    | ~-0.198        | 0.6              |       |
+| Type II     | ~0.787      | 0.766          | ~0.94    | ~-0.35         | 0.12             |       |
+| Type III    | ~0.79       | N/A            | N/A      | N/A            | N/A              |       |
+
+### Computers
+
+| Attack Type | Victim Acc | Surrogate Acc | Fidelity | Final Gen Loss | Final Surr Loss | Notes         |
+|-------------|-------------|----------------|----------|----------------|------------------|---------------|
+| Type I      | ~0.65       | ~0.38          | 0.55     | -0.30          | 0.28             | queries = 500 |
+| Type II     | ~0.64       | ~0.40          | ~0.50    | -0.12          | 0.02             | queries = 500 |
+| Type III    | N/A         | N/A            | N/A      | N/A            | N/A              | Out of memory |
+
+
+
 # License
 This project is licensed under the MIT License. Reference the ``LICENSE`` file in the repository for more detail.
 
