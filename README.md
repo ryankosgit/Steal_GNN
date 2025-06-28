@@ -89,7 +89,7 @@ This section documents the STEALGNN results aligned with the experimental tables
 
 ### OGBN-Arxiv
 
-All attacks resulted in **out of memory** could not be completed due to memory constraints and are to be determined.
+All attacks resulted in **out of memory**. They could not be completed due to memory constraints and are to be determined.
 
 
 # License
