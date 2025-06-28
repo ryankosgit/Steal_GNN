@@ -77,7 +77,7 @@ This section documents the STEALGNN results aligned with the experimental tables
 |-------------|-------------|----------------|----------|----------------|------------------|-------|
 | Type I      | ~0.65       | ~0.65          | ~0.70    | ~-0.198        | 0.6              |       |
 | Type II     | ~0.787      | 0.766          | ~0.94    | ~-0.35         | 0.12             |       |
-| Type III    | ~0.79       | N/A            | N/A      | N/A            | N/A              |       |
+| Type III    | ~0.79       | N/A            | N/A      | N/A            | N/A              | Out of Memory       |
 
 ### Computers
 
@@ -89,7 +89,7 @@ This section documents the STEALGNN results aligned with the experimental tables
 
 ### OGBN-Arxiv
 
-All attacks resulted in **out of memory** errors and are to be determined.
+All attacks resulted in **out of memory** could not be completed due to memory constraints and are to be determined.
 
 
 # License
