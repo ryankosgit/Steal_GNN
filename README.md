@@ -15,8 +15,8 @@ stealgnn/
 ├── run_attack.py            # Attack execution logic
 ├── train.py                 # Victim training loop
 main.py                      # CLI entry point to launch attacks
-README.md
-requirements.txt             
+README.md                    # README
+requirements.txt             # Required libraries to download
 ```
 
 # Files & Folder Info
